@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --headline60: 60px;
+  --headline40: 40px;
+  --secondry-body24:24px;
+  --body18: 18px;
+
+  --primary-gray: #2B2B2B;
+  --dark-gray: #333333;
+  --green: #009379;
+  --blue: #3366FF;
+  --red: #FF6250;
+  --yellow: #FFDF90;
+  --purple: #BFAFF2;
+  --light-gray: #C4C4C4;
+  --white: #FFFFFF;
+
+  --semi-bold: 600;
+  --regular: 400;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+} 
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+h1{
+  font-size: var(--headline60);
+  line-height: 90px;
+  font-weight: var(--semi-bold);
+}
+
+h2{
+  font-size: var(--headline40);
+  line-height: 60px;
+  font-weight: var(--semi-bold);
+}
+
+h3{
+  font-size: var(--secondry-body24);
+  line-height: 40px;
+  font-weight: var(--semi-bold);
+}
+
+h4{
+  font-size: var(--body18);
+  line-height: 32px;
+  font-weight: var(--semi-bold);
+}
+
+p{
+  font-size: var(--body18);
+  line-height: 32px;
+  font-weight: var(--regular);
+}
+
+button{
+  border: none;
+  font-size: var(--body18);
+  cursor: pointer;
+}
+
+@media screen and (max-width:1366px) {
+  h1{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: var(--semi-bold);
+  }
+  
+  h2{
+    font-size: var(--headline40);
+    line-height: 60px;
+    font-weight: var(--semi-bold);
+  }
+  
+  h3{
+    font-size: var(--secondry-body24);
+    line-height: 40px;
+    font-weight: var(--semi-bold);
+  }
+  
+  h4{
+    font-size: var(--body18);
+    line-height: 32px;
+    font-weight: var(--semi-bold);
+  }
+  
+  p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: var(--regular);
+  }
+
+  button{
+    font-size: 14px;
+  }
+}
+
+.landing-page{
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-gray);
+  overflow: hidden;
+
+}
+
+.header-footer-wrapper{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.body-wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+

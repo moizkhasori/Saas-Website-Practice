@@ -1,0 +1,28 @@
+.header-footer-wrapper{
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav-logo{
+    color: var(--white);
+  }
+
+.nav-buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-buttons button:nth-child(1){
+    background-color: transparent;
+    color: var(--white);
+
+}
+
+.nav-buttons button:nth-child(2){
+    padding: 0.75rem 2.5rem;
+    border-radius: 7px;
+    background-color: var(--purple);
+}
